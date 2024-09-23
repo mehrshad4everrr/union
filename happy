@@ -47,4 +47,4 @@ cd union-testnet
 screen -S union
 
 # Run
-node union.js
+
