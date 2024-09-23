@@ -45,6 +45,3 @@ git clone https://github.com/0xmoei/union-testnet
 cd union-testnet
 # Start a screen
 screen -S union
-
-# Run
-
