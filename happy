@@ -39,6 +39,3 @@ npm install web3
 npm install web3@1.7.3
 npm list web3
 
-npm instal readline-sync
-
-
