@@ -55,5 +55,5 @@ sudo rm /etc/apt/keyrings/nodesource.gpg
 # Install Nodejs 18
 NODE_MAJOR=18
 sudo apt-get update
-sudo apt-get install -y ca-certificates curl gnupg
+
 
