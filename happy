@@ -52,4 +52,3 @@ npm install web3
 sudo apt-get purge nodejs
 sudo apt-get autoremove
 sudo rm /etc/apt/keyrings/nodesource.gpg
-# Install Nodejs 18
