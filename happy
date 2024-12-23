@@ -47,5 +47,4 @@ npm uninstall web3
 sudo apt-get purge nodejs
 sudo apt-get remove nodejs
 sudo apt-get purge nodejs
-sudo apt-get autoremove
 
