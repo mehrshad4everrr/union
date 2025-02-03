@@ -39,4 +39,3 @@ sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg
 sudo mkdir -p /etc/apt/keyrings
 # Install yarn
-curl -sSL https://dl.yarn
