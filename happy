@@ -36,4 +36,3 @@ sudo apt-get autoremove
 sudo rm /etc/apt/keyrings/nodesource.gpg
 NODE_MAJOR=18
 sudo apt-get update
-
