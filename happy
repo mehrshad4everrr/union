@@ -34,7 +34,6 @@ npm install web3
 sudo apt-get purge nodejs
 sudo apt-get autoremove
 sudo rm /etc/apt/keyrings/nodesource.gpg
-NODE_MAJOR=
 # Delete Nodejs old files
 sudo apt-get remove nodejs
 sudo apt-get purge nodejs
