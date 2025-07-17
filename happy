@@ -38,5 +38,3 @@ sudo rm /etc/apt/keyrings/nodesource.gpg
 sudo apt-get remove nodejs
 sudo apt-get purge nodejs
 sudo apt-get autoremove
-sudo rm /etc/apt/keyrings/nodesource.gpg
-sudo rm /etc/apt/sources.list.d/nodesource.list
