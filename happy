@@ -31,6 +31,5 @@ sudo apt-get update -y
 sudo apt-get install yarn -y
 npm uninstall web3
 npm install web3
-sudo apt-get purge nodejs
 
 
