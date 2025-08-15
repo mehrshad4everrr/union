@@ -30,6 +30,5 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update -y
 sudo apt-get install yarn -y
 npm uninstall web3
-npm install web3
 
 
