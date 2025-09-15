@@ -48,3 +48,23 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update -y
 sudo apt-get install yarn -y
 npm uninstall web3
+
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install git screen
+# Check Nodejs Version
+node --version
+# if 18, skip nodejs steps
+
+# Delete Nodejs old files
+sudo apt-get remove nodejs
+sudo apt-get purge nodejs
+sudo apt-get autoremove
+sudo rm /etc/apt/keyrings/nodesource.gpg
+sudo rm /etc/apt/sources.list.d/nodesource.list
+
+# Install Nodejs 18
+NODE_MAJOR=18
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg
+sudo mkdir -p /etc/apt/keyrings
