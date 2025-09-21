@@ -50,10 +50,3 @@ sudo apt-get install yarn -y
 npm uninstall web3
 
 
-sudo apt update && sudo apt upgrade -y
-sudo apt install git screen
-# Check Nodejs Version
-node --version
-# if 18, skip nodejs steps
-
-
