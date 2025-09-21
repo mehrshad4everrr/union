@@ -56,8 +56,4 @@ sudo apt install git screen
 node --version
 # if 18, skip nodejs steps
 
-# Delete Nodejs old files
-sudo apt-get remove nodejs
-sudo apt-get purge nodejs
-sudo apt-get autoremove
 
